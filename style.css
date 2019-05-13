@@ -1,0 +1,29 @@
+header {
+    background-color: #282828;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header li{
+  padding-left:20px;
+  font-size:10px;
+}
+
+.dropdown-item{
+  font-size:8px;
+}
+
+* {box-sizing:border-box}
