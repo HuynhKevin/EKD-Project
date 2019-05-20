@@ -1,5 +1,5 @@
 .zoom {
-  zoom: 150%;
+  zoom: 130%;
 }
 
 header {
@@ -9,6 +9,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 5;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 ul {
@@ -27,13 +28,41 @@ header li{
 }
 
 body{
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+hr{
+  border-top: 3px solid black;
+  border-radius:3px;
 }
 
 .dropdown-item{
   font-size:14px;
 }
 
+.title{
+  text-align:center;
+  font-size:25px;
+  font-weight: bold;
+}
 
+p{
+  text-align:center;
+}
+
+#about hr{
+  border: 2px solid black;
+}
+
+#about img {
+    padding: 25px 0 0 25px;
+    border-radius: 20%;
+    width: 200px;
+}
+.about {
+    padding: 25px 0 0 25px;
+    width: 68%;
+    display: inline-block;
+}
 
 * {box-sizing:border-box}
