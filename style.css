@@ -65,4 +65,149 @@ p{
     display: inline-block;
 }
 
+
+@media screen and (min-width: 1000px){
+  .w{
+    display:inline-block;
+  }
+  #slider1{
+    margin-left:65px;
+    width:25%;
+  }
+  #slider2{
+    margin-left:65px;
+    width:25%;
+  }
+  #slider3{
+    margin-left:65px;
+    width:25%;
+  }
+  #slider_general1{
+    max-height: 700px;
+    min-height:200px;
+  }
+
+  #slider_general2{
+    max-height: 700px;
+     min-height:200px;
+  }
+
+  #slider_general3{
+    max-height: 700px;
+    min-height:200px;
+  }
+
+  #slider_general1 img{
+    max-height: 700px;
+    min-height:200px;
+  }
+
+  #slider_general2 img{
+    max-height: 700px;
+     min-height:200px;
+  }
+
+  #slider_general3 img{
+    max-height: 700px;
+    min-height:200px;
+  }
+}
+
+
+@media screen and (min-device-width: 640px) and (max-device-width: 1025px){
+
+  #slider1{
+    margin:auto;
+    width: 50%;
+  }
+
+  #slider2{
+    margin:auto;
+    margin-top:15px;
+    width: 50%
+  }
+  #slider3{
+    margin:auto;
+    margin-top:15px;
+    width: 50%
+  }
+
+  #slider_general1{
+    max-height: 700px;
+    min-height:100px;
+  }
+
+  #slider_general2{
+    max-height: 700px;
+     min-height:100px;
+  }
+
+  #slider_general3{
+    max-height: 700px;
+    min-height:100px;
+  }
+
+  #slider_general1 img{
+    max-height: 700px;
+    min-height:100px;
+  }
+
+  #slider_general2 img{
+    max-height: 700px;
+     min-height:100px;
+  }
+
+  #slider_general3 img{
+    max-height: 700px;
+    min-height:100px;
+  }
+}
+
+@media screen and (max-device-width: 640px){
+  #slider1{
+    margin:auto;
+    margin-top:15px;
+    width:60%
+  }
+  #slider2{
+    margin:auto;
+    margin-top:15px;
+    width: 60%
+  }
+  #slider3{
+    margin:auto;
+    margin-top:15px;
+    width: 60%;
+  }
+  #slider_general1{
+    max-height: 700px;
+    min-height: 100px;
+  }
+
+  #slider_general2{
+    max-height: 700px;
+     min-height:100px;
+  }
+
+  #slider_general3{
+    max-height: 700px;
+    min-height:100px;
+  }
+
+  #slider_general1 img{
+    max-height: 700px;
+    min-height:100px;
+  }
+
+  #slider_general2 img{
+    max-height: 700px;
+     min-height:100px;
+  }
+
+  #slider_general3 img{
+    max-height: 700px;
+    min-height:100px;
+  }
+}
+
 * {box-sizing:border-box}
