@@ -15,7 +15,7 @@
 <body>
   <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">FOOD AROUND THE WORLD</a>
+    <a class="navbar-brand" href="#"> <img src="img/icon.png" width="50px" height="50px" alt="logo"> FOOD AROUND THE WORLD</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,7 +37,7 @@
           <a class="nav-link" href="#about">Developers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -53,12 +53,24 @@
             </ol>
             <div id="slider_general" style="max-height: 900px; min-height: 550px;" class="carousel-inner">
                 <div class="carousel-item active" data-interval="5000">
+                        <div class="carousel-caption">
+                                <h1 id="slide">France</h1>
+                                <p>Macaroni, onion soup, wine...</p>
+                              </div> 
                     <img style="max-height: 800px; min-height: 550px;"id="slider_1" src="img/10.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-interval="5000">
+                        <div class="carousel-caption">
+                                <h1>Poland</h1>
+                                <p>Vodka, schabowy, cheesecake...</p>
+                              </div> 
                     <img style="max-height: 800px; min-height: 550px;" id="slider_2" src="img/11.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-interval="5000">
+                        <div class="carousel-caption">
+                                <h1>South Korea</h1>
+                                <p>Soju, bibimpap, samgyeopsal...</p>
+                              </div> 
                     <img style="max-height: 800px; min-height: 550px;" id="slider_3" src="img/12.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
@@ -79,7 +91,7 @@
   <h1 class="title">Introduction</h1>
   <hr>
   <p>Welcome to our new website about food around the world !
-Did you know that Champagne from France was invented by … a clergyman ? And did you know that rice was used to pay taxes in Korea ?
+Did you know that Champagne from France was invented by … a clergyman ? Have you heard that bagels probably orginate from Poland? And did you know that rice was used to pay taxes in Korea ? 
 You can see which kind of food, desserts and alcohol there is in countries like France, Poland and also South Korea. You will see which mea lis tradiotional from our countries, our traditional desserts and our specialities about alcohol ! Of course, drink with moderation.
 <br>See you soon !</p>
 </div>
@@ -194,8 +206,7 @@ You can see which kind of food, desserts and alcohol there is in countries like 
         </div>
 </section>
 
-<br>
-<br>
+<br><br><br><br>
 
 <section id="about">
 <div class="container jumbotron-margin">
@@ -216,16 +227,67 @@ You can see which kind of food, desserts and alcohol there is in countries like 
   </div>
 
 
-  <img src="./assets/img/member4.jpg">
-  <div class="about">
-  <b>Ewa BIELAWSKA</b>
-  <p>...</p>
-  </div>
-
-  </div>
-
+<!-- Right-aligned -->
+      <div class="media">
+        <div class="media-body">
+          <h2 class="media-heading"><b>David PADRINO</b></h2>
+          <p style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="media-right">
+          <img src="img/david.jpg" class="media-object" style="width:200px">
+        </div>
+      </div>
+<br><br>
+      <!-- Left-aligned -->
+        <div class="media">
+                <div class="media-left">
+                  <img src="img/ewa.jpg" class="media-object" style="width:200px">
+                </div>
+                <div class="media-body">
+                  <h2 class="media-heading"><b>Ewa BIELAWSKA</b></h2>
+                 <p style="text-align: right"> Master degree in Korean Studies, currently on exchange in Sejong Univeristy as an Open Major student.
+                  I start my day with a cup of home-brewed coffee. I am deeply interested in lingustics and I work part-time as an English teacher. 
+               In my free-time I am struggling to learn Python. I hope to connect my two interests in future - translation and machine learning.
+                  Actually, it's my second time in Korea. My first travel was in 2015, I have been staying in Busan which will forever be my second home. 
+                  I am foodie and vegeterian! You could say that my life is a bit challenging since I live in Seoul. 
+                  However, I find it thrilling to discover plant-based delights and veganize korean traditional recipies!
+               My favourite polish dish is my mother's bigos and cucumber soup! And I am a sernik-addict!</p>                </div>
+              </div>
+</div>
 </section>
+<br><br><br><br>
 
+<!---added contact-->
+
+<section id="contact">
+    <div class="container jumbotron-margin">
+        <h1 class="title">Contact</h1>
+        <hr>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+            
+            <div class="form-group">
+                <label for="exampleInputEmail1">E-mail:</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your e-mail adress">
+            </div>
+                          
+             <div class="form-group">
+                <label for="message">Your message:</label>
+                <textarea class="form-control" id="message" rows="5">Ask us</textarea>
+            </div>
+                          
+            <button type="submit" class="btn btn-outline-dark">Send</button>
+            </form>
+    </section>
+    <br><br><br><br>
+
+                <footer class="navbar navbar-dark bg-dark">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">All rights Reserved EKD TEAM</a>
+                        </div>
+                    </footer>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
