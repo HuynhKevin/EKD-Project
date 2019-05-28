@@ -6,7 +6,6 @@ h1, h2, h3, h4 {
     position: relative;
     height: 60vh;
     margin-top: 20px;
-    background: url(img/food.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -18,7 +17,7 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0, .7);
-    
+
 }
 .column, .columnFr, .columnPl, .columnKr {
   float: left;
