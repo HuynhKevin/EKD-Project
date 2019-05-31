@@ -30,7 +30,7 @@ h1, h2, h3, h4 {
   display: block;
 }
 .card>img {
-  max-height: 300px;
+  height: 300px;
   object-fit: cover;
   -webkit-filter: grayscale(90%);
   filter: grayscale(90%);
